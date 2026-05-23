@@ -56,6 +56,10 @@ MIDDLEWARE = [
 
 CORS_ALLOW_ALL_ORIGINS = True
 
+CORS_ALLOWED_ORIGINS = [
+    'https://fho-3-task-management-system.vercel.app',
+]
+
 ROOT_URLCONF = 'backend.urls'
 
 TEMPLATES = [
